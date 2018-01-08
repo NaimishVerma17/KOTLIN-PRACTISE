@@ -2,14 +2,15 @@
  * Created by itakg on 9/9/2017.
  */
 
-enum class Seat{
+enum class Seat {
     WINDOW,
     AISLE,
-    MIDDLE
+    MIDDLE,
+    FRONT
 }
 
 fun getSeat()
-:Seat{
+        : Seat {
     return Seat.WINDOW
 }
 

@@ -3,18 +3,16 @@
  */
 fun main(args: Array<String>) {
     println("Enter a no")
-    var no:Int
+    var no: Int
             = readLine()!!.toInt()
-   try{
+    try {
 
-       var ans=100/no
-    println("The answer is: "+ans)
+        var ans = 100 / no
+        println("The answer is: " + ans)
 
-   }
-   catch (exception:Exception)
-   {
-       println(exception.message)
-   }
+    } catch (exception: Exception) {
+        println(exception.message)
+    }
 
     println("The program is executed!!")
 
